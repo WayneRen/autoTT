@@ -1,0 +1,1054 @@
+                         Flow Step  Line         Total    PreBody    Body    PostBody
+                      PreJob Reset  0000       0.034247
+                          defaults  0005       0.002306
+                     set-error-bin  0006       0.000021
+                      ProbeCard_ID  0007       0.003345
+                     Start_Program  0008       0.017873  0.012730  0.004769  0.000374
+                  enable-flow-word  0009       0.000009
+                   create-site-var  0010       0.000009
+               setup_sitevar_share  0011       0.010698
+                          logprint  0012       0.000020
+                      Start_Module  0013       0.001935  0.000883  0.000695  0.000357
+                               nop  0014       0.000006
+                              goto  0015       0.000006
+                               nop  0016       0.000007
+     continuity_nonshared_ti (1/2)  0017       0.063989  0.003325  0.060049  0.000615
+     continuity_nonshared_ti (1/2)  0017       0.057891  0.001318  0.055882  0.000691
+        continuity_shared_ti (1/2)  0020       0.066336  0.001308  0.064545  0.000483
+        continuity_shared_ti (1/2)  0020       0.062403  0.001604  0.060208  0.000590
+                               nop  0023       0.000014
+      Prb_Initialize_DisabledSites  0024       0.003712
+                   power_cycle2_ti  0025       0.031749
+                       trip_idd_ti  0026       0.138014  0.013444  0.116567  0.008003
+                              goto  0028       0.000009
+                   power_cycle2_ti  0029       0.037310
+            leakage_probe_ti (1/2)  0030       0.018847  0.003673  0.014438  0.000736
+            leakage_probe_ti (1/2)  0030       0.012157  0.001897  0.009379  0.000881
+                   power_cycle2_ti  0033       0.044338
+                               nop  0034       0.000014
+                    ModuleTestTime  0035       0.002753  0.001265  0.001112  0.000375
+                          logprint  0036       0.000029
+                      Start_Module  0037       0.002117  0.001032  0.000714  0.000371
+                              goto  0038       0.000007
+                               nop  0039       0.000009
+                               nop  0045       0.000008
+                               nop  0051       0.000008
+              CRES_GPIO_Meas (1/3)  0057       0.186325  0.001139  0.184696  0.000491
+              CRES_GPIO_Meas (1/3)  0057       0.182686  0.001157  0.180879  0.000650
+              CRES_GPIO_Meas (1/3)  0057       0.182902  0.001365  0.181007  0.000529
+                    CRES_GPIO_Calc  0061       0.014764
+            CRES_Analog_Meas (1/3)  0063       0.183441  0.001646  0.181236  0.000560
+            CRES_Analog_Meas (1/3)  0063       0.181399  0.001257  0.179634  0.000508
+            CRES_Analog_Meas (1/3)  0063       0.180713  0.001233  0.178975  0.000506
+                  CRES_Analog_Calc  0067       0.013124
+                               nop  0069       0.000015
+                               nop  0073       0.000010
+                               nop  0075       0.000008
+                    ModuleTestTime  0076       0.002751  0.001327  0.000994  0.000430
+                          logprint  0077       0.000030
+                          logprint  0078       0.000026
+                      Start_Module  0079       0.002629  0.001247  0.000830  0.000551
+                    power_cycle_ti  0080       0.008711
+                              goto  0081       0.000010
+S32K118_0n97v_jtag_production_PROBE_SHARE_typ  0088       0.000010
+S32K118_0n97v_jtag_production_PROBE_SHARE_min  0089       0.018934  0.004413  0.014007  0.000513
+S32K118_0n97v_jtag_production_PROBE_SHARE_max  0090       0.017587  0.003268  0.013812  0.000508
+                               nop  0091       0.000011
+                    ModuleTestTime  0092       0.002734  0.001160  0.001135  0.000439
+                          logprint  0093       0.000027
+                          logprint  0094       0.000021
+                      Start_Module  0095       0.002342  0.001114  0.000815  0.000413
+                              goto  0096       0.000008
+                          logprint  0097       0.000007
+                   power_cycle2_ti  0098       0.000009
+S32K118_0n97v_nsr_ex_top_chain_p1_typ  0099       0.000008
+                          logprint  0100       0.000025
+                   power_cycle2_ti  0101       0.034278
+S32K118_0n97v_nsr_ex_top_chain_p1_min  0102       0.165588  0.007772  0.157313  0.000502
+                          logprint  0103       0.000029
+                   power_cycle2_ti  0104       0.040056
+S32K118_0n97v_nsr_ex_top_chain_p1_max  0105       0.165016  0.007883  0.156639  0.000495
+                          logprint  0106       0.000010
+                   power_cycle2_ti  0107       0.000010
+S32K118_0n97v_nsa_ex_top_chain_p_prd_allckhmbe_p1_nonod_typ  0108       0.000009
+S32K118_0n97v_nsa_ex_top_chain_p_prd_allckhmbd_p2_nonod_typ  0109       0.000009
+ S32K118_0n97v_nsa_ex_p1_nonOD_typ  0110       0.000011
+ S32K118_0n97v_nsa_ex_p2_nonOD_typ  0111       0.000009
+ S32K118_0n97v_nsa_ex_p4_nonOD_typ  0112       0.000008
+ S32K118_0n97v_nsa_ex_p5_nonOD_typ  0113       0.000010
+ S32K118_0n97v_nsa_ex_p6_nonOD_typ  0114       0.000010
+ S32K118_0n97v_nsa_ex_p7_nonOD_typ  0115       0.000009
+ S32K118_0n97v_nsa_ex_p8_nonOD_typ  0116       0.000008
+S32K118_0n97v_nsa_ex_p10_nonOD_typ  0117       0.000008
+S32K118_0n97v_nsa_ex_p11_nonOD_typ  0118       0.000009
+S32K118_0n97v_nsa_ex_p12_nonOD_typ  0119       0.000008
+                   power_cycle2_ti  0120       0.000008
+ S32K118_0n97v_ntd_ex_p3_nonOD_typ  0121       0.000008
+ S32K118_0n97v_ntd_ex_p1_nonOD_typ  0122       0.000008
+ S32K118_0n97v_ntd_ex_p4_nonOD_typ  0123       0.000009
+                          logprint  0124       0.000032
+                   power_cycle2_ti  0125       0.039993
+S32K118_0n97v_nsa_ex_top_chain_p_prd_allckhmbe_p1_nonod_min  0126       0.015728  0.006780  0.008497  0.000450
+S32K118_0n97v_nsa_ex_top_chain_p_prd_allckhmbd_p2_nonod_min  0127       0.009938  0.001102  0.008272  0.000564
+ S32K118_0n97v_nsa_ex_p1_nonOD_min  0128       0.028525  0.000983  0.027114  0.000427
+ S32K118_0n97v_nsa_ex_p2_nonOD_min  0129       0.009078  0.000950  0.007712  0.000417
+ S32K118_0n97v_nsa_ex_p4_nonOD_min  0130       0.012507  0.000959  0.011127  0.000421
+ S32K118_0n97v_nsa_ex_p5_nonOD_min  0131       0.007446  0.000951  0.006077  0.000418
+ S32K118_0n97v_nsa_ex_p6_nonOD_min  0132       0.007737  0.001038  0.006270  0.000430
+ S32K118_0n97v_nsa_ex_p7_nonOD_min  0133       0.008240  0.001005  0.006817  0.000418
+ S32K118_0n97v_nsa_ex_p8_nonOD_min  0134       0.011836  0.001114  0.010308  0.000414
+S32K118_0n97v_nsa_ex_p10_nonOD_min  0135       0.010380  0.000994  0.008939  0.000447
+S32K118_0n97v_nsa_ex_p11_nonOD_min  0136       0.008869  0.001000  0.007451  0.000418
+S32K118_0n97v_nsa_ex_p12_nonOD_min  0137       0.007640  0.000969  0.006217  0.000454
+                   power_cycle2_ti  0138       0.040603
+ S32K118_0n97v_ntd_ex_p3_nonOD_min  0139       0.018437  0.007991  0.009992  0.000453
+ S32K118_0n97v_ntd_ex_p1_nonOD_min  0140       0.205022  0.001103  0.203475  0.000443
+ S32K118_0n97v_ntd_ex_p4_nonOD_min  0141       0.067035  0.001026  0.065558  0.000450
+                          logprint  0142       0.000030
+                   power_cycle2_ti  0143       0.040465
+S32K118_0n97v_nsa_ex_top_chain_p_prd_allckhmbe_p1_nonod_max  0144       0.015821  0.006874  0.008469  0.000478
+S32K118_0n97v_nsa_ex_top_chain_p_prd_allckhmbd_p2_nonod_max  0145       0.010033  0.001092  0.008459  0.000482
+ S32K118_0n97v_nsa_ex_p1_nonOD_max  0146       0.029436  0.001079  0.027908  0.000450
+ S32K118_0n97v_nsa_ex_p2_nonOD_max  0147       0.009310  0.001083  0.007802  0.000425
+ S32K118_0n97v_nsa_ex_p4_nonOD_max  0148       0.012551  0.000998  0.011133  0.000420
+ S32K118_0n97v_nsa_ex_p5_nonOD_max  0149       0.007470  0.000966  0.006101  0.000403
+ S32K118_0n97v_nsa_ex_p6_nonOD_max  0150       0.007570  0.000939  0.006213  0.000417
+ S32K118_0n97v_nsa_ex_p7_nonOD_max  0151       0.008266  0.000994  0.006833  0.000438
+ S32K118_0n97v_nsa_ex_p8_nonOD_max  0152       0.012227  0.001008  0.010737  0.000482
+S32K118_0n97v_nsa_ex_p10_nonOD_max  0153       0.011214  0.001133  0.009579  0.000502
+S32K118_0n97v_nsa_ex_p11_nonOD_max  0154       0.009808  0.001151  0.008184  0.000472
+S32K118_0n97v_nsa_ex_p12_nonOD_max  0155       0.008150  0.001168  0.006502  0.000479
+                   power_cycle2_ti  0156       0.040335
+ S32K118_0n97v_ntd_ex_p3_nonOD_max  0157       0.018659  0.008124  0.010073  0.000462
+ S32K118_0n97v_ntd_ex_p1_nonOD_max  0158       0.205743  0.001152  0.204100  0.000491
+ S32K118_0n97v_ntd_ex_p4_nonOD_max  0159       0.066917  0.001223  0.065242  0.000452
+                          logprint  0160       0.000011
+                   power_cycle2_ti  0161       0.000009
+  S32K118_0n97v_ntd_ex_p6_VLPR_typ  0162       0.000009
+  S32K118_0n97v_ntd_ex_p8_VLPR_typ  0163       0.000008
+  S32K118_0n97v_ntd_ex_p9_VLPR_typ  0164       0.000008
+                          logprint  0165       0.000030
+                   power_cycle2_ti  0166       0.038853
+  S32K118_0n97v_ntd_ex_p6_VLPR_min  0167       1.763277  0.003308  1.759487  0.000481
+  S32K118_0n97v_ntd_ex_p8_VLPR_min  0168       0.117908  0.001160  0.116321  0.000427
+  S32K118_0n97v_ntd_ex_p9_VLPR_min  0169       0.332853  0.001096  0.331298  0.000458
+                          logprint  0170       0.000034
+                   power_cycle2_ti  0171       0.034505
+  S32K118_0n97v_ntd_ex_p6_VLPR_max  0172       1.762979  0.003109  1.759405  0.000465
+  S32K118_0n97v_ntd_ex_p8_VLPR_max  0173       0.117904  0.001140  0.116320  0.000445
+  S32K118_0n97v_ntd_ex_p9_VLPR_max  0174       0.332821  0.001078  0.331298  0.000445
+                          logprint  0213       0.000011
+                   power_cycle2_ti  0214       0.000010
+ S32K118_0n97v_nsd_ex_p1_nonOD_typ  0215       0.000009
+ S32K118_0n97v_nsd_ex_p2_nonOD_typ  0216       0.000008
+                          logprint  0217       0.000029
+                   power_cycle2_ti  0218       0.034433
+ S32K118_0n97v_nsd_ex_p1_nonOD_min  0219       0.102009  0.007753  0.093820  0.000436
+ S32K118_0n97v_nsd_ex_p2_nonOD_min  0220       0.096953  0.001008  0.095475  0.000471
+                          logprint  0221       0.000028
+                   power_cycle2_ti  0222       0.037556
+ S32K118_0n97v_nsd_ex_p1_nonOD_max  0223       0.101961  0.007740  0.093792  0.000430
+ S32K118_0n97v_nsd_ex_p2_nonOD_max  0224       0.096885  0.000975  0.095468  0.000442
+                   power_cycle2_ti  0225       0.000010
+S32K118_0n97v_ntd_ex_p1_nonOD_max_NBTI  0226       0.000008
+                               nop  0228       0.000007
+                    ModuleTestTime  0229       0.002499  0.001086  0.001035  0.000378
+                          logprint  0230       0.000022
+                          logprint  0231       0.000019
+                  nvm_start_module  0232       0.009697  0.007324  0.002009  0.000363
+                 nvm_vb_class_init  0233       0.037319
+                  enable-flow-word  0234       0.000008
+                              goto  0235       0.000006
+                               nop  0237       0.000007
+                nvm_vb_drive_tdiid  0238       0.008257
+                    nvm_tdiid_cont  0239       0.027080  0.000963  0.025675  0.000442
+            nvm_bistcom_max_nom_v1  0240       0.040247  0.003153  0.036639  0.000454
+                    nvm_bistcom_v1  0241       0.017723  0.004191  0.013097  0.000435
+                 nvm_bistcom_16Mhz  0242       0.018714  0.001753  0.016540  0.000421
+            nvm_bistcom_min_nom_v1  0243       0.018458  0.004153  0.013871  0.000435
+                              goto  0244       0.000008
+                              goto  0245       0.000008
+                               nop  0284       0.000007
+                              goto  0285       0.000006
+                              goto  0286       0.000006
+                               nop  0287       0.000007
+                               nop  0288       0.000007
+                               nop  0289       0.000007
+nvm_vb_get_unique_die_info_from_user  0290       0.000008
+                               nop  0291       0.000007
+   nvm_vb_get_die_info_from_prober  0293       0.000008
+                   nvm_rd_die_info  0294       0.000008
+        nvm_vfy_nvm_trim_rev_16Mhz  0295       0.020908  0.003281  0.017121  0.000506
+     nvm_vfy_nvm_trim_chksum_16Mhz  0296       0.049900  0.001013  0.048462  0.000425
+nvm_readout_nvm_trim_overlays_16Mhz  0297       2.519934  0.001021  2.518451  0.000461
+nvm_vfy_nvm_trim_rev_00000850_16Mhz  0298       0.000061
+nvm_vfy_nvm_trim_chksum_00000850_16Mhz  0299       0.000030
+nvm_readout_nvm_trim_overlays_00000850_16Mhz  0300       0.000028
+nvm_vfy_nvm_trim_rev_00000840_16Mhz  0301       0.000029
+nvm_vfy_nvm_trim_chksum_00000840_16Mhz  0302       0.000027
+nvm_readout_nvm_trim_overlays_00000840_16Mhz  0303       0.000027
+                              goto  0304       0.000006
+                              goto  0305       0.000007
+                               nop  0316       0.000007
+           nvm_hidr_rd_p2_passcode  0317       0.040313  0.001935  0.037936  0.000441
+                    nvm_end_module  0318       0.005417  0.002811  0.002243  0.000364
+                          logprint  0319       0.000020
+                          logprint  0320       0.000020
+                    ModuleTestTime  0035       0.002753  0.001265  0.001112  0.000375
+                          nvm_start_module  0321       0.003229  0.000870  0.001988  0.000371
+                nvm_vb_drive_tdiid  0322       0.008156
+                    power_cycle_ti  0323       0.051320
+                              goto  0324       0.000009
+                              goto  0325       0.000009
+                               nop  0349       0.000007
+                  nvm_at_vfy_unsec  0350       0.012970  0.004237  0.008272  0.000461
+   nvm_at_hidr_ers_security_sector  0351       0.078471  0.001029  0.077001  0.000440
+               nvm_at_ft_pgm_unsec  0352       0.013965  0.001086  0.012459  0.000421
+              nvm_at_confirm_unsec  0353       0.007726  0.001015  0.006286  0.000425
+                    nvm_end_module  0354       0.003735  0.000965  0.002410  0.000360
+                          logprint  0355       0.000025
+                          logprint  0356       0.000022
+                    ModuleTestTime  0035       0.002753  0.001265  0.001112  0.000375                          
+                      Start_Module  0357       0.002077  0.001008  0.000698  0.000371
+                              goto  0358       0.000009
+                    power_cycle_ti  0359       0.011794
+                          logprint  0360       0.000009
+ S32K118_0n97v_mbist_ex_allram_typ  0361       0.000009
+S32K118_0n97v_mbist_ex_allram_retonly_typ  0362       0.000009
+S32K118_0n97v_mbist_ex_sysram_vlpr_typ  0363       0.000009
+                    power_cycle_ti  0364       0.000008
+                          logprint  0365       0.000029
+ S32K118_0n97v_mbist_ex_allram_min  0366       0.088333  0.006888  0.080985  0.000460
+S32K118_0n97v_mbist_ex_sysram_vlpr_min  0367       1.271839  0.006315  1.265054  0.000469
+S32K118_0n97v_mbist_ex_allram_retonly_min  0368       0.014474  0.005517  0.008540  0.000417
+                    power_cycle_ti  0369       0.014437
+S32K118_0n97v_mbist_ex_low_freq_min  0370       1.044003  0.006569  1.036979  0.000454
+                    power_cycle_ti  0371       0.014554
+          S32K118_mbist_Vbump_test  0376       0.208920  0.006806  0.201632  0.000482
+                    power_cycle_ti  0377       0.014570
+                          logprint  0378       0.000027
+ S32K118_0n97v_mbist_ex_allram_max  0379       0.075900  0.006806  0.068678  0.000417
+S32K118_0n97v_mbist_ex_sysram_vlpr_max  0380       1.270470  0.005073  1.264928  0.000469
+S32K118_0n97v_mbist_ex_allram_retonly_max  0381       0.014505  0.005531  0.008566  0.000408
+                               nop  0382       0.000011
+                    ModuleTestTime  0383       0.002430  0.001098  0.000959  0.000374
+                          logprint  0384       0.000025
+                               nop  0385       0.000008
+                    power_cycle_ti  0386       0.014523
+                          logprint  0387       0.000024
+                      Start_Module  0388       0.002039  0.000944  0.000722  0.000373
+                              goto  0389       0.000008
+                   power_cycle2_ti  0390       0.033837
+pmc_trim_rd_b0_uifr_0x0000_0x0020_ti  0391       0.356848  0.004073  0.351957  0.000817
+   pmc_meas_amp_offset_fpm_ppmu_ti  0405       0.088016  0.003873  0.083293  0.000849
+                   power_cycle2_ti  0408       0.034586
+           pmc_meas_lvd3_toggle_ti  0409       0.164616  0.001035  0.162945  0.000636
+           pmc_meas_lvd5_toggle_ti  0413       0.204883  0.003598  0.200654  0.000631
+           pmc_meas_lvrx_toggle_ti  0417       0.198112  0.003346  0.194166  0.000600
+                   power_cycle2_ti  0434       0.035865
+         pmc_meas_lvrxlp_toggle_ti  0435       0.229007  0.001810  0.226492  0.000705
+                   power_cycle2_ti  0439       0.035828
+                   pmc_meas_lpo_ti  0440       0.075783  0.001090  0.074000  0.000693
+                   power_cycle2_ti  0442       0.033875
+pmc_meas_regulator_fpm_ppmu_max_ti  0443       0.127160  0.003426  0.122947  0.000787
+                   power_cycle2_ti  0450       0.039066
+pmc_meas_regulator_rpm_ppmu_max_ti  0451       0.199359  0.003438  0.195157  0.000765
+                   power_cycle2_ti  0458       0.040423
+pmc_meas_regulator_fpm_ppmu_min_ti  0459       0.125304  0.004547  0.120011  0.000746
+                   power_cycle2_ti  0464       0.035751
+pmc_meas_regulator_rpm_ppmu_min_ti  0465       0.199540  0.004421  0.194261  0.000857
+                   power_cycle2_ti  0472       0.042181
+pmc_meas_regulator_recovery_time_ti  0473       0.125294  0.001876  0.122741  0.000677
+  pmc_register_access_user_mode_ti  0475       0.018715  0.001991  0.016247  0.000477
+                               nop  0476       0.000009
+                   power_cycle2_ti  0479       0.034255
+             pmc_por_flag_check_ti  0480       0.017494  0.001011  0.015999  0.000484
+          pmc_por_flag_check_2v_ti  0481       0.072875  0.001158  0.071243  0.000474
+        pmc_por_flag_check_0p8v_ti  0482       0.075405  0.003226  0.071699  0.000479
+                          logprint  0483       0.000025
+                   power_cycle2_ti  0484       0.034327
+          pmc_comp_lvd3_fpm_vdd_ti  0485       0.086494  0.003188  0.082772  0.000534
+          pmc_comp_lvd5_fpm_vdd_ti  0486       0.086845  0.003296  0.083036  0.000514
+          pmc_comp_lvrx_fpm_vdd_ti  0487       0.087546  0.004365  0.082632  0.000548
+                   power_cycle2_ti  0489       0.034569
+              pmc_comp_lvr3_fpm_ti  0490       0.081701  0.000933  0.080226  0.000542
+         pmc_comp_lvr3flash_fpm_ti  0491       0.081242  0.001224  0.079471  0.000547
+                   power_cycle2_ti  0492       0.034147
+              pmc_comp_lvrx_rpm_ti  0493       0.141166  0.001709  0.138918  0.000540
+                   power_cycle2_ti  0494       0.034298
+              pmc_comp_lvr3_rpm_ti  0495       0.140936  0.001718  0.138654  0.000565
+                   power_cycle2_ti  0496       0.034982
+               pmc_comp_lvr_rpm_ti  0497       0.137686  0.001701  0.135435  0.000551
+                   power_cycle2_ti  0498       0.034437
+         pmc_comp_lvr3flash_rpm_ti  0499       0.142526  0.001701  0.140271  0.000554
+                          logprint  0500       0.000025
+                   power_cycle2_ti  0501       0.034773
+      pmc_force_corevdd_fpm_adc_ti  0502       0.086338  0.003036  0.082565  0.000737
+        pmc_force_vdd3v_fpm_adc_ti  0506       0.083407  0.001705  0.080941  0.000761
+   pmc_force_vdd3vflash_fpm_adc_ti  0510       0.085030  0.001593  0.082771  0.000665
+                   power_cycle2_ti  0514       0.037509
+      pmc_force_corevdd_rpm_adc_ti  0515       0.147837  0.003270  0.143852  0.000715
+                   power_cycle2_ti  0519       0.036638
+      pmc_force_vddwell_rpm_adc_ti  0520       0.148274  0.003176  0.144293  0.000805
+                   power_cycle2_ti  0524       0.036344
+        pmc_force_vsslv_rpm_adc_ti  0525       0.148224  0.003268  0.144108  0.000847
+                               nop  0529       0.000013
+                    ModuleTestTime  0530       0.003358  0.001520  0.001302  0.000536
+                          logprint  0531       0.000024
+                      Start_Module  0532       0.002060  0.001015  0.000674  0.000371
+                              goto  0533       0.000007
+                   power_cycle2_ti  0534       0.034298
+                 srtc_alarm_bit_ti  0535       0.018752  0.001014  0.017277  0.000461
+           srtc_compensation_ff_ti  0536       0.018548  0.001184  0.016923  0.000441
+         srtc_counter_set_reset_ti  0537       0.018077  0.001177  0.016428  0.000472
+                               nop  0538       0.000009
+                    ModuleTestTime  0539       0.002552  0.001157  0.001035  0.000360
+                          logprint  0540       0.000023
+                      Start_Module  0541       0.001967  0.000919  0.000685  0.000362
+                              goto  0542       0.000007
+                               nop  0543       0.000010
+         scg_firc_48mhz_measure_ti  0544       0.000010
+      scg_firc_48mhz_measure_ht_ti  0545       0.000009
+                               nop  0546       0.000006
+        scg_firc_48mhz_meas_min_ti  0547       0.000008
+                               nop  0548       0.000006
+        scg_firc_48mhz_meas_max_ti  0549       0.000008
+                               nop  0550       0.000007
+          scg_sirc_8mhz_measure_ti  0551       0.000008
+       scg_sirc_8mhz_measure_ht_ti  0552       0.000008
+                               nop  0553       0.000006
+         scg_sirc_8mhz_meas_min_ti  0554       0.000008
+                               nop  0555       0.000006
+         scg_sirc_8mhz_meas_max_ti  0556       0.000008
+                               nop  0557       0.000007
+          scg_sirc_2mhz_measure_ti  0558       0.000008
+                               nop  0559       0.000006
+         scg_sirc_2mhz_meas_min_ti  0560       0.000008
+                               nop  0561       0.000007
+         scg_sirc_2mhz_meas_max_ti  0562       0.000008
+                               nop  0563       0.000007
+     scg_firc_regulator_measure_ti  0564       0.000008
+                               nop  0565       0.000006
+       scg_firc_bandgap_measure_ti  0566       0.000008
+                               nop  0567       0.000007
+      scg_firc_48mhz_measure_5V_ti  0568       0.150868  0.003338  0.147025  0.000505
+                               nop  0570       0.000009
+     scg_firc_48mhz_meas_min_5V_ti  0571       0.000008
+                               nop  0572       0.000007
+     scg_firc_48mhz_meas_max_5V_ti  0573       0.000008
+                               nop  0574       0.000007
+       scg_sirc_8mhz_measure_5V_ti  0575       0.144564  0.001094  0.143022  0.000448
+                               nop  0577       0.000009
+      scg_sirc_8mhz_meas_min_5V_ti  0578       0.000008
+                               nop  0579       0.000007
+      scg_sirc_8mhz_meas_max_5V_ti  0580       0.000008
+                               nop  0581       0.000006
+       scg_sirc_2mhz_measure_5V_ti  0582       0.000008
+                               nop  0583       0.000006
+      scg_sirc_2mhz_meas_min_5V_ti  0584       0.000009
+                               nop  0585       0.000006
+      scg_sirc_2mhz_meas_max_5V_ti  0586       0.000008
+                               nop  0587       0.000007
+  scg_firc_regulator_measure_5V_ti  0588       0.195455  0.003324  0.191597  0.000534
+                               nop  0589       0.000009
+    scg_firc_bandgap_measure_5V_ti  0590       0.198183  0.001221  0.196434  0.000527
+                               nop  0591       0.000008
+                               nop  0592       0.000007
+      scg_firc_48mhz_measure_3V_ti  0593       0.165080  0.004354  0.160269  0.000458
+                               nop  0595       0.000009
+     scg_firc_48mhz_meas_min_3V_ti  0596       0.000008
+                               nop  0597       0.000007
+     scg_firc_48mhz_meas_max_3V_ti  0598       0.000007
+                               nop  0599       0.000007
+       scg_sirc_8mhz_measure_3V_ti  0600       0.135271  0.001084  0.133727  0.000460
+                               nop  0602       0.000009
+      scg_sirc_8mhz_meas_min_3V_ti  0603       0.000008
+                               nop  0604       0.000007
+      scg_sirc_8mhz_meas_max_3V_ti  0605       0.000007
+                               nop  0606       0.000006
+       scg_sirc_2mhz_measure_3V_ti  0607       0.000008
+                               nop  0608       0.000006
+      scg_sirc_2mhz_meas_min_3V_ti  0609       0.000007
+                               nop  0610       0.000006
+      scg_sirc_2mhz_meas_max_3V_ti  0611       0.000008
+                               nop  0612       0.000007
+  scg_firc_regulator_measure_3V_ti  0613       0.186682  0.003233  0.182897  0.000552
+                               nop  0614       0.000009
+    scg_firc_bandgap_measure_3V_ti  0615       0.190560  0.001201  0.188676  0.000683
+                               nop  0616       0.000009
+    scg_div2_coverage_lptmr_typ_ti  0617       0.240521  0.003383  0.236244  0.000894
+                               nop  0639       0.000013
+scg_sosc_ibias_low_power_medium_range_ti  0640       0.000011
+scg_sosc_ibias_low_power_high_range_ti  0642       0.000009
+scg_sosc_ibias_high_gain_low_range_ti  0644       0.000010
+scg_sosc_ibias_high_gain_medium_range_ti  0646       0.000011
+scg_sosc_ibias_high_gain_high_range_ti  0648       0.000010
+scg_sosc_ibias_high_gain_high_range_force_vdd_ti  0650       0.000009
+                               nop  0652       0.000011
+scg_sosc_ibias_low_power_medium_range_5V_ti  0653       0.056244  0.004084  0.051665  0.000495
+scg_sosc_ibias_low_power_high_range_5V_ti  0655       0.050695  0.001315  0.048903  0.000477
+scg_sosc_ibias_high_gain_low_range_5V_ti  0657       0.050657  0.001304  0.048876  0.000477
+scg_sosc_ibias_high_gain_medium_range_5V_ti  0659       0.051278  0.001348  0.049457  0.000473
+scg_sosc_ibias_high_gain_high_range_5V_ti  0661       0.050689  0.001335  0.048864  0.000490
+scg_sosc_ibias_high_gain_high_range_5V_force_vdd_ti  0663       0.050178  0.001316  0.048380  0.000482
+                               nop  0665       0.000009
+scg_sosc_ibias_low_power_medium_range_3V_ti  0666       0.054205  0.004576  0.049141  0.000488
+scg_sosc_ibias_low_power_high_range_3V_ti  0668       0.050261  0.001355  0.048421  0.000486
+scg_sosc_ibias_high_gain_low_range_3V_ti  0670       0.056044  0.001396  0.054140  0.000507
+scg_sosc_ibias_high_gain_medium_range_3V_ti  0672       0.050479  0.001354  0.048643  0.000482
+scg_sosc_ibias_high_gain_high_range_3V_ti  0674       0.052642  0.001381  0.050752  0.000509
+scg_sosc_ibias_high_gain_high_range_3V_force_vdd_ti  0676       0.050289  0.001351  0.048468  0.000471
+                   power_cycle2_ti  0678       0.034408
+         osc_hgo1_rng11_GM_measure  0679       0.150051
+     osc_hgo1_rng11_bandwidth_test  0683       1.305630  0.005070  1.299979  0.000581
+  osc_hgo1_rng11_bandwidth_test_re  0684       0.000056
+           osc_hgo1_rng11_hys_test  0685       1.303744  0.004295  1.298933  0.000516
+         osc_hgo1_rng10_GM_measure  0686       0.150921
+     osc_hgo1_rng10_bandwidth_test  0690       1.305734  0.005021  1.300154  0.000559
+  osc_hgo1_rng10_bandwidth_test_re  0691       0.000056
+           osc_hgo1_rng10_hys_test  0692       1.305241  0.004311  1.300360  0.000569
+        osc_hgo1_rng10_hys_test_re  0693       0.000055
+         osc_hgo1_rng01_GM_measure  0694       0.136934
+     osc_hgo1_rng01_bandwidth_test  0698       0.021621  0.007798  0.013353  0.000471
+  osc_hgo1_rng01_bandwidth_test_re  0699       0.000043
+           osc_hgo1_rng01_hys_test  0700       1.300549  0.001117  1.298906  0.000527
+         osc_hgo0_rng11_GM_measure  0701       0.149815
+     osc_hgo0_rng11_bandwidth_test  0705       1.305136  0.005008  1.299594  0.000534
+           osc_hgo0_rng11_hys_test  0706       1.303901  0.004288  1.299075  0.000538
+         osc_hgo0_rng10_GM_measure  0707       0.150087
+     osc_hgo0_rng10_bandwidth_test  0711       1.311780  0.010800  1.300437  0.000542
+           osc_hgo0_rng10_hys_test  0712       1.303769  0.004273  1.298963  0.000532
+                               nop  0713       0.000012
+                    ModuleTestTime  0714       0.005625  0.004255  0.001008  0.000362
+                          logprint  0715       0.000021
+                      Start_Module  0716       0.001939  0.000896  0.000673  0.000370
+                              goto  0717       0.000006
+                          logprint  0718       0.000020
+        SetSaveFF_LatchTestFailure  0719       0.000560
+                   power_cycle2_ti  0720       0.033966
+           anl_cmp_mux_test_max_ti  0721       0.019918  0.002976  0.016468  0.000473
+           anl_cmp_mux_test_max_ti  0722       0.000019
+       anl_cmp_VHYST3_width_max_ti  0723       0.112371  0.001208  0.110420  0.000743
+anl_cmp_VHYST3_one_hyst_para_max_ti  0726       0.083201  0.001349  0.081304  0.000548
+ anl_cmp_VHYST_TDLSB_toggle_max_ti  0728       0.160252  0.001241  0.158280  0.000731
+    anl_dac_INL_DNL_32p_adc_max_ti  0733       2.053383  0.001621  2.051132  0.000630
+   anl_dac_INL_DNL_32p_ppmu_max_ti  0736       0.000048
+                          logprint  0747       0.000028
+                   power_cycle2_ti  0748       0.034734
+           anl_cmp_mux_test_min_ti  0749       0.020906  0.004054  0.016379  0.000473
+       anl_cmp_VHYST3_width_min_ti  0750       0.111644  0.001161  0.109785  0.000698
+anl_cmp_VHYST3_one_hyst_para_min_ti  0753       0.082181  0.001304  0.080268  0.000609
+ anl_cmp_VHYST_TDLSB_toggle_min_ti  0755       0.159260  0.001247  0.157163  0.000851
+    anl_dac_INL_DNL_32p_adc_min_ti  0760       2.056439  0.001796  2.054013  0.000631
+   anl_dac_INL_DNL_32p_ppmu_min_ti  0763       0.000047
+                    SetFF_LastSave  0774       0.000642
+                               nop  0775       0.000007
+                    ModuleTestTime  0776       0.004645  0.003253  0.001012  0.000381
+                          logprint  0777       0.000021
+                      Start_Module  0778       0.001954  0.000892  0.000690  0.000372
+                              goto  0779       0.000006
+                          logprint  0780       0.000023
+                 power_cycle_5V_ti  0781       0.014624
+       adc0_conversion_mode_max_ti  0782       0.020110  0.001021  0.018660  0.000429
+                               nop  0783       0.000008
+           adc0_sample_time_max_ti  0784       0.020505  0.001019  0.019061  0.000425
+                               nop  0785       0.000008
+       adc0_firc_conversion_max_ti  0786       0.018187  0.000992  0.016770  0.000425
+                               nop  0787       0.000008
+       adc0_sirc_conversion_max_ti  0788       0.018007  0.000981  0.016598  0.000427
+                               nop  0789       0.000007
+       adc0_sosc_conversion_max_ti  0790       0.018015  0.000992  0.016595  0.000428
+                               nop  0795       0.000008
+adc0_calibration_test_25mhz_max_ti  0796       0.465286  0.000993  0.463775  0.000518
+                               nop  0797       0.000012
+adc0_conversion_self_test_25mhz_max_ti  0798       0.629799  0.001308  0.627965  0.000525
+                               nop  0799       0.000012
+      adc0_conversion_mode_max_max  0800       0.020482  0.001314  0.018748  0.000419
+                          logprint  0801       0.000025
+                    power_cycle_ti  0802       0.011074
+       adc0_conversion_mode_min_ti  0803       0.023114  0.004051  0.018641  0.000421
+                               nop  0804       0.000009
+           adc0_sample_time_min_ti  0805       0.020461  0.000995  0.019056  0.000410
+                               nop  0806       0.000008
+       adc0_firc_conversion_min_ti  0807       0.018145  0.000987  0.016742  0.000416
+                               nop  0808       0.000008
+       adc0_sirc_conversion_min_ti  0809       0.017978  0.000974  0.016579  0.000424
+                               nop  0810       0.000008
+       adc0_sosc_conversion_min_ti  0811       0.018046  0.000977  0.016650  0.000419
+                               nop  0816       0.000007
+adc0_calibration_test_25mhz_min_ti  0817       0.463902  0.000970  0.462415  0.000517
+                               nop  0818       0.000011
+adc0_conversion_self_test_25mhz_min_ti  0819       0.625108  0.001298  0.623275  0.000535
+                               nop  0827       0.000012
+      adc0_conversion_mode_min_min  0828       0.020465  0.001314  0.018730  0.000421
+                   power_cycle2_ti  0829       0.033995
+        adc0_internal_channel_test  0830       1.369465  0.003058  1.365961  0.000446
+                               nop  0831       0.000012
+                    power_cycle_ti  0839       0.011637
+                               nop  0840       0.000010
+                    ModuleTestTime  0841       0.002445  0.001022  0.001052  0.000371
+                          logprint  0842       0.000025
+                      Start_Module  0843       0.002035  0.000965  0.000699  0.000371
+                              goto  0844       0.000008
+                    power_cycle_ti  0845       0.011179
+               run_vlpr_run_min_ti  0846       0.020952  0.004153  0.016372  0.000427
+                    power_cycle_ti  0847       0.011125
+               run_vlps_run_min_ti  0848       0.021865  0.004145  0.017296  0.000424
+                    power_cycle_ti  0849       0.011074
+     run_vlpr_vlps_vlpr_run_min_ti  0850       0.024291  0.004150  0.019711  0.000430
+                    power_cycle_ti  0851       0.011096
+             run_pstop1_run_min_ti  0852       0.021955  0.004155  0.017359  0.000441
+                    power_cycle_ti  0853       0.011174
+             run_pstop2_run_min_ti  0854       0.021850  0.004169  0.017263  0.000418
+                    power_cycle_ti  0855       0.011084
+                run_amo_run_min_ti  0856       0.022011  0.004152  0.017434  0.000425
+                    power_cycle_ti  0857       0.011101
+               run_vlpr_run_max_ti  0858       0.019971  0.003120  0.016433  0.000418
+                    power_cycle_ti  0859       0.011185
+               run_vlps_run_max_ti  0860       0.020893  0.003125  0.017317  0.000451
+                    power_cycle_ti  0861       0.011068
+     run_vlpr_vlps_vlpr_run_max_ti  0862       0.023493  0.003161  0.019880  0.000452
+                    power_cycle_ti  0863       0.011191
+             run_pstop1_run_max_ti  0864       0.020783  0.003160  0.017212  0.000412
+                    power_cycle_ti  0865       0.010996
+             run_pstop2_run_max_ti  0866       0.020615  0.003016  0.017166  0.000433
+                    power_cycle_ti  0867       0.010990
+                run_amo_run_max_ti  0868       0.020806  0.003007  0.017377  0.000422
+                    power_cycle_ti  0869       0.010967
+                               nop  0870       0.000009
+                    ModuleTestTime  0871       0.002294  0.000907  0.000996  0.000391
+                    power_cycle_ti  0872       0.011007
+                          logprint  0873       0.000023
+                      Start_Module  0874       0.001948  0.000908  0.000677  0.000364
+                              goto  0875       0.000008
+                               nop  0882       0.000007
+                    power_cycle_ti  0884       0.011013
+               bulk_cap_disable_ti  0885       0.000827
+                          logprint  0886       0.000021
+                      Start_Module  0887       0.001943  0.000881  0.000693  0.000369
+                              goto  0888       0.000007
+                               nop  0889       0.000007
+                               nop  0890       0.000009
+                 power_cycle_5V_ti  0891       0.014806
+          idd_uc_run_48mhz_max_vdd  0892       0.098412  0.013218  0.077113  0.008081
+                    power_cycle_ti  0894       0.000010
+          idd_uc_run_48mhz_typ_vdd  0895       0.000008
+                 power_cycle_3V_ti  0897       0.000008
+          idd_uc_run_48mhz_min_vdd  0898       0.000008
+                               nop  0900       0.000007
+                               nop  0901       0.000007
+                               nop  0903       0.000006
+                               nop  0904       0.000006
+                               nop  0906       0.000006
+                               nop  0907       0.000007
+                 power_cycle_5V_ti  0909       0.015002
+       idd_uc_run_48mhz_pd_max_vdd  0910       0.092041  0.013177  0.070982  0.007882
+                    power_cycle_ti  0912       0.000011
+       idd_uc_run_48mhz_pd_typ_vdd  0913       0.000008
+                 power_cycle_3V_ti  0915       0.000008
+       idd_uc_run_48mhz_pd_min_vdd  0916       0.000008
+                               nop  0918       0.000007
+                               nop  0919       0.000007
+                               nop  0921       0.000006
+                               nop  0922       0.000006
+                               nop  0924       0.000006
+                               nop  0925       0.000007
+                 power_cycle_5V_ti  0927       0.015074
+              idd_uc_stop1_max_vdd  0928       0.091949  0.013239  0.070820  0.007889
+                 power_cycle_3V_ti  0930       0.000010
+              idd_uc_stop1_min_vdd  0931       0.000008
+                 power_cycle_5V_ti  0933       0.014927
+              idd_uc_stop2_max_vdd  0934       0.093147  0.013212  0.071881  0.008054
+                 power_cycle_3V_ti  0936       0.000010
+              idd_uc_stop2_min_vdd  0937       0.000008
+                 power_cycle_5V_ti  0939       0.014938
+               idd_uc_vlpr_max_vdd  0940       0.445500  0.013125  0.424215  0.008160
+                 power_cycle_5V_ti  0942       0.015198
+            idd_uc_vlpr_pd_max_vdd  0943       0.445893  0.013279  0.424449  0.008165
+                 power_cycle_3V_ti  0945       0.000013
+               idd_uc_vlpr_min_vdd  0946       0.000009
+                 power_cycle_3V_ti  0948       0.000008
+            idd_uc_vlpr_pd_min_vdd  0949       0.000008
+                               nop  0963       0.000007
+                               nop  0964       0.000007
+                 power_cycle_5V_ti  0965       0.015188
+            idd_uc_vlps_ht_max_vdd  0966       0.257025  0.005958  0.248448  0.002619
+            idd_uc_vlps_ht_max_vdd  0968       0.264999  0.005791  0.256552  0.002656
+            idd_uc_vlps_ht_max_vdd  0970       0.255614  0.005681  0.247297  0.002636
+            idd_uc_vlps_ht_max_vdd  0972       0.257723  0.005781  0.249262  0.002680
+                 power_cycle_5V_ti  0974       0.051285
+         idd_uc_vlps_pd_ht_max_vdd  0975       0.256184  0.006011  0.247563  0.002610
+         idd_uc_vlps_pd_ht_max_vdd  0977       0.265482  0.005769  0.256286  0.003427
+         idd_uc_vlps_pd_ht_max_vdd  0979       0.255395  0.005725  0.247028  0.002643
+         idd_uc_vlps_pd_ht_max_vdd  0981       0.256823  0.005876  0.248284  0.002663
+                 power_cycle_3V_ti  0983       0.000012
+            idd_uc_vlps_ht_min_vdd  0984       0.000008
+            idd_uc_vlps_ht_min_vdd  0986       0.000008
+            idd_uc_vlps_ht_min_vdd  0988       0.000008
+            idd_uc_vlps_ht_min_vdd  0990       0.000008
+                 power_cycle_3V_ti  0992       0.000010
+         idd_uc_vlps_pd_ht_min_vdd  0993       0.000008
+         idd_uc_vlps_pd_ht_min_vdd  0995       0.000008
+         idd_uc_vlps_pd_ht_min_vdd  0997       0.000008
+         idd_uc_vlps_pd_ht_min_vdd  0999       0.000008
+                               nop  1001       0.000007
+                               nop  1002       0.000007
+                               nop  1003       0.000007
+                               nop  1004       0.000007
+                    ModuleTestTime  1005       0.004509  0.003144  0.001003  0.000362
+                          logprint  1006       0.000024
+                          logprint  1007       0.000022
+                  nvm_start_module  1008       0.006542  0.004123  0.002057  0.000362
+                nvm_vb_drive_tdiid  1009       0.008699
+                    power_cycle_ti  1010       0.057442
+                              goto  1011       0.000008
+                              goto  1012       0.000008
+                               nop  1035       0.000007
+      nvm_at_vfy_auto_trim_min_nom  1036       0.011444  0.004314  0.006706  0.000424
+      nvm_at_vfy_auto_trim_max_nom  1037       0.009648  0.003114  0.006130  0.000404
+                              goto  1038       0.000007
+                              goto  1039       0.000008
+                               nop  1049       0.000007
+            nvm_meas_at_vdd_int_a0  1050       0.052882  0.004360  0.048043  0.000480
+                    power_cycle_ti  1052       0.011805
+    nvm_meas_at_vdd_int_min_min_a0  1053       0.056616  0.004282  0.051858  0.000476
+                    power_cycle_ti  1055       0.011778
+    nvm_meas_at_vdd_int_max_max_a0  1056       0.055340  0.003244  0.051591  0.000505
+                    power_cycle_ti  1058       0.011796
+    nvm_meas_at_vdd_int_nom_min_a0  1059       0.056850  0.004276  0.052077  0.000497
+                    power_cycle_ti  1061       0.011803
+    nvm_meas_at_vdd_int_nom_max_a0  1062       0.056568  0.004254  0.051839  0.000476
+                    power_cycle_ti  1064       0.011749
+    nvm_meas_at_vdd_int_min_max_a0  1065       0.056860  0.004284  0.052077  0.000499
+                    power_cycle_ti  1067       0.011801
+    nvm_meas_at_vdd_int_min_nom_a0  1068       0.052013  0.004276  0.047262  0.000475
+                    power_cycle_ti  1070       0.011796
+    nvm_meas_at_vdd_int_max_min_a0  1071       0.056022  0.003251  0.052296  0.000475
+                    power_cycle_ti  1073       0.011886
+    nvm_meas_at_vdd_int_max_nom_a0  1074       0.051279  0.003236  0.047550  0.000494
+            nvm_meas_at_vref_a0_v1  1076       0.066896  0.004557  0.061852  0.000487
+       nvm_meas_at_osc_a0_embedded  1078       0.000010
+                              goto  1080       0.000007
+                               nop  1082       0.000007
+       nvm_meas_at_osc_a0_embedded  1083       0.041678  0.001298  0.039926  0.000454
+           nvm_meas_at_vread_a0_v1  1085       0.064143  0.001318  0.062323  0.000502
+             nvm_meas_at_vsg_a0_v1  1087       0.049066  0.001312  0.047255  0.000499
+            nvm_meas_at_iref_a0_v1  1089       0.048968  0.001320  0.047176  0.000472
+             nvm_meas_at_pvsrc3_a0  1091       0.282051  0.001282  0.280197  0.000572
+              nvm_meas_at_pvcg3_a0  1093       0.277932  0.003901  0.273416  0.000614
+              nvm_meas_at_evcg4_a0  1095       0.287151  0.003922  0.282582  0.000646
+            nvm_meas_at_evo_ers_a0  1097       0.051949  0.004071  0.047389  0.000489
+        nvm_meas_at_evo_ers_eee_a0  1099       0.049891  0.001325  0.048058  0.000508
+        nvm_meas_at_evo_pgm_eee_a0  1101       0.049387  0.001312  0.047587  0.000489
+        nvm_meas_at_evo_brn_eee_a0  1103       0.048526  0.001309  0.046741  0.000477
+           nvm_meas_at_evo_cust_a0  1105       0.048387  0.001309  0.046594  0.000484
+           nvm_meas_at_evo_fact_a0  1107       0.054698  0.001284  0.052911  0.000504
+            nvm_meas_at_pvo_pgm_a0  1109       0.048603  0.001312  0.046799  0.000491
+        nvm_meas_at_pvo_brn_eee_a0  1111       0.048467  0.001309  0.046671  0.000487
+           nvm_meas_at_pvo_cust_a0  1113       0.049233  0.001294  0.047449  0.000489
+          nvm_meas_at_rdrefi_b0_v1  1115       0.048667  0.001300  0.046880  0.000487
+          nvm_meas_at_rdrefi_b1_v1  1117       0.048340  0.001295  0.046564  0.000481
+      nvm_meas_at_rclk_b0_embedded  1123       0.044908  0.001254  0.043194  0.000459
+      nvm_meas_at_rclk_b1_embedded  1125       0.044553  0.001323  0.042770  0.000460
+           nvm_meas_at_evfyi_b0_v1  1127       0.050109  0.001295  0.048305  0.000509
+           nvm_meas_at_evfyi_b1_v1  1129       0.049665  0.001314  0.047850  0.000500
+nvm_meas_at_iprog_spulse1_b0_bl0_v1  1131       0.049019  0.001319  0.047226  0.000473
+nvm_meas_at_iprog_spulse1_b1_bl0_v1  1133       0.049685  0.001327  0.047886  0.000472
+nvm_meas_at_iprog_spulse2_b0_bl0_v1  1135       0.048826  0.001310  0.047031  0.000486
+nvm_meas_at_iprog_spulse2_b1_bl0_v1  1137       0.048484  0.001299  0.046723  0.000462
+nvm_meas_at_iprog_spulse3_b0_bl0_v1  1139       0.048484  0.001300  0.046702  0.000482
+nvm_meas_at_iprog_spulse3_b1_bl0_v1  1141       0.049585  0.001319  0.047772  0.000494
+                               nop  1143       0.000009
+     nvm_at_ft_mrd1_all1_grp (1/2)  1197       0.013484  0.001275  0.011758  0.000451
+     nvm_at_ft_mrd1_all1_grp (2/2)  1197       0.011903  0.000956  0.010495  0.000452
+  nvm_hidr_ers_sge_security_sector  1198       0.084387  0.000984  0.082969  0.000434
+     nvm_at_ft_mrd1_all1_grp (1/2)  1199       0.013892  0.001029  0.012401  0.000462
+     nvm_at_ft_mrd1_all1_grp (2/2)  1199       0.012278  0.001029  0.010739  0.000511
+             nvm_at_ft_ers_sge_mas  1200       0.157045  0.001077  0.155523  0.000446
+     nvm_at_ft_mrd1_all1_grp (1/2)  1201       0.011735  0.001134  0.010174  0.000428
+     nvm_at_ft_mrd1_all1_grp (2/2)  1201       0.010483  0.001028  0.008995  0.000459
+       nvm_at_ft_ers_sge_mas (2/2)  1202       0.000044
+     nvm_at_ft_mrd1_all1_grp (2/2)  1203       0.000035
+       nvm_at_ft_ers_sge_mas (2/2)  1204       0.000049
+     nvm_at_ft_mrd1_all1_grp (2/2)  1205       0.000030
+       nvm_at_ft_ers_sge_mas (2/2)  1206       0.000032
+     nvm_at_ft_mrd1_all1_grp (2/2)  1207       0.000031
+              nvm_vb_pulse_counter  1208       0.003798
+       nvm_at_ers_overbump_ers_mas  1210       0.156792  0.001172  0.155173  0.000448
+                              goto  1211       0.000008
+                              goto  1212       0.000010
+                               nop  1222       0.000008
+            nvm_at_ft_mrd1_all1_b0  1223       0.011843  0.001178  0.010187  0.000479
+            nvm_at_ft_mrd1_all1_b1  1224       0.010526  0.001072  0.008991  0.000462
+             nvm_at_ft_leb_all1_b0  1225       0.170481  0.001060  0.168984  0.000437
+            nvm_at_ft_lebr_all1_b0  1226       0.000066
+             nvm_at_ft_leb_all1_b1  1227       0.171193  0.001141  0.169590  0.000462
+            nvm_at_ft_lebr_all1_b1  1228       0.000065
+          nvm_at_ft_mrd1bc_all1_b0  1229       0.000035
+          nvm_at_ft_mrd1bc_all1_b1  1230       0.000036
+           nvm_at_ft_mrd1r_all1_b0  1231       0.000030
+           nvm_at_ft_mrd1r_all1_b1  1232       0.000043
+    nvm_at_ft_rd_bl_leakage_6ua_b0  1233       0.010025  0.001149  0.008454  0.000422
+                              goto  1234       0.000009
+    nvm_at_ft_rd_bl_leakage_5ua_b0  1235       0.009795  0.001168  0.008208  0.000419
+    nvm_at_ft_rd_bl_leakage_4ua_b0  1236       0.011166  0.001038  0.009712  0.000415
+    nvm_at_ft_rd_bl_leakage_6ua_b1  1237       0.009731  0.001058  0.008237  0.000436
+                               nop  1238       0.000008
+    nvm_at_ft_rd_bl_leakage_5ua_b1  1239       0.009549  0.001004  0.008142  0.000403
+                              goto  1240       0.000007
+    nvm_at_ft_rd_bl_leakage_4ua_b1  1241       0.011068  0.000975  0.009688  0.000405
+                               nop  1242       0.000008
+            nvm_at_ft_pgmt_p2_diag  1243       0.049516  0.000974  0.048127  0.000415
+            nvm_at_ft_pgmt_p3_diag  1244       0.047584  0.000995  0.046163  0.000426
+       nvm_at_ft_rd_diag_grp (1/2)  1245       0.011161  0.000974  0.009769  0.000417
+       nvm_at_ft_rd_diag_grp (2/2)  1245       0.009683  0.000950  0.008308  0.000425
+       nvm_at_ft_pgmt_ckbd_min_nom  1246       0.365018  0.004189  0.360375  0.000454
+       nvm_at_ft_lpb_ckbd0_min_nom  1247       0.000010
+nvm_at_ft_mrd0_between_pulses_ckbd0_min_nom_grp (1/2)  1248       0.012502  0.001090  0.010947  0.000465
+nvm_at_ft_mrd0_between_pulses_ckbd0_min_nom_grp (2/2)  1248       0.010818  0.000965  0.009400  0.000453
+                              goto  1249       0.000007
+                              goto  1250       0.000008
+                               nop  1260       0.000007
+    nvm_at_ft_pgmt_ckbd_p3_min_nom  1261       0.181495  0.001146  0.179898  0.000451
+       nvm_at_ft_lpb_ckbd0_min_nom  1262       0.000010
+nvm_at_ft_mrd0_between_pulses_ckbd0_min_nom_grp (1/2)  1263       0.010751  0.001073  0.009259  0.000419
+nvm_at_ft_mrd0_between_pulses_ckbd0_min_nom_grp (2/2)  1263       0.008998  0.000888  0.007681  0.000430
+nvm_at_ft_pgmt_ckbd_p3_min_nom (2/2)  1264       0.000046
+              nvm_vb_pulse_counter  1265       0.003818
+              nvm_at_ft_rd_ckbd_b0  1266       0.043701  0.003545  0.039711  0.000444
+              nvm_at_ft_rd_ckbd_b1  1267       0.009931  0.001046  0.008444  0.000440
+   nvm_at_ft_mrd0_ckbd0_min_nom_b0  1268       0.013508  0.004152  0.008899  0.000457
+   nvm_at_ft_mrd0_ckbd0_min_nom_b1  1269       0.009213  0.000961  0.007794  0.000458
+ nvm_at_ft_mrd0bc_ckbd0_min_nom_b0  1270       0.000037
+ nvm_at_ft_mrd0bc_ckbd0_min_nom_b1  1271       0.000030
+  nvm_at_ft_mrd0r_ckbd0_min_nom_b0  1272       0.000029
+  nvm_at_ft_mrd0r_ckbd0_min_nom_b1  1273       0.000029
+nvm_at_ft_mrd1_ckbd1_leb_plus_offset_max_nom_b0  1280       0.015777  0.003145  0.012183  0.000448
+nvm_at_ft_mrd1_ckbd1_leb_plus_offset_max_nom_b1  1281       0.012627  0.000965  0.011226  0.000436
+nvm_at_ft_mrd1bc_ckbd1_leb_plus_offset_max_nom_b0  1282       0.000038
+nvm_at_ft_mrd1bc_ckbd1_leb_plus_offset_max_nom_b1  1283       0.000030
+nvm_at_ft_mrd1r_ckbd1_leb_plus_offset_max_nom_b0  1284       0.000030
+nvm_at_ft_mrd1r_ckbd1_leb_plus_offset_max_nom_b1  1285       0.000029
+nvm_at_ft_mrd1_ckbd1_leb_plus_offset_min_nom_b0  1286       0.017191  0.004180  0.012566  0.000445
+nvm_at_ft_mrd1_ckbd1_leb_plus_offset_min_nom_b1  1287       0.012729  0.000961  0.011336  0.000432
+nvm_at_ft_mrd1bc_ckbd1_leb_plus_offset_min_nom_b0  1288       0.000035
+nvm_at_ft_mrd1bc_ckbd1_leb_plus_offset_min_nom_b1  1289       0.000030
+nvm_at_ft_mrd1r_ckbd1_leb_plus_offset_min_nom_b0  1290       0.000029
+nvm_at_ft_mrd1r_ckbd1_leb_plus_offset_min_nom_b1  1291       0.000029
+nvm_at_ft_factory_mrd1_ckbd1_min_nom_b0  1292       0.011986  0.001039  0.010489  0.000458
+nvm_at_ft_factory_mrd1_ckbd1_min_nom_b1  1293       0.010625  0.001016  0.009166  0.000443
+nvm_at_ft_factory_mrd1bc_ckbd1_min_nom_b0  1294       0.000037
+nvm_at_ft_factory_mrd1bc_ckbd1_min_nom_b1  1295       0.000030
+nvm_at_ft_factory_mrd1r_ckbd1_min_nom_b0  1296       0.000029
+nvm_at_ft_factory_mrd1r_ckbd1_min_nom_b1  1297       0.000029
+nvm_at_ft_factory_mrd1_ckbd1_max_nom_b0  1298       0.013757  0.003146  0.010165  0.000446
+nvm_at_ft_factory_mrd1_ckbd1_max_nom_b1  1299       0.010352  0.000970  0.008932  0.000450
+nvm_at_ft_factory_mrd1bc_ckbd1_max_nom_b0  1300       0.000055
+nvm_at_ft_factory_mrd1bc_ckbd1_max_nom_b1  1301       0.000030
+nvm_at_ft_factory_mrd1r_ckbd1_max_nom_b0  1302       0.000030
+nvm_at_ft_factory_mrd1r_ckbd1_max_nom_b1  1303       0.000029
+nvm_at_ft_factory_mrd0_ckbd0_min_nom_b0  1304       0.013896  0.004292  0.009160  0.000444
+nvm_at_ft_factory_mrd0_ckbd0_min_nom_b1  1305       0.009144  0.000980  0.007710  0.000455
+nvm_at_ft_factory_mrd0bc_ckbd0_min_nom_b0  1306       0.000036
+nvm_at_ft_factory_mrd0bc_ckbd0_min_nom_b1  1307       0.000030
+nvm_at_ft_factory_mrd0r_ckbd0_min_nom_b0  1308       0.000029
+nvm_at_ft_factory_mrd0r_ckbd0_min_nom_b1  1309       0.000029
+nvm_at_ft_factory_mrd0_ckbd0_max_nom_b0  1310       0.012365  0.003147  0.008761  0.000457
+nvm_at_ft_factory_mrd0_ckbd0_max_nom_b1  1311       0.008874  0.000953  0.007482  0.000440
+nvm_at_ft_factory_mrd0bc_ckbd0_max_nom_b0  1312       0.000036
+nvm_at_ft_factory_mrd0bc_ckbd0_max_nom_b1  1313       0.000034
+nvm_at_ft_factory_mrd0r_ckbd0_max_nom_b0  1314       0.000032
+nvm_at_ft_factory_mrd0r_ckbd0_max_nom_b1  1315       0.000031
+                    power_cycle_ti  1316       0.011576
+    nvm_meas_at_vdd_int_nom_min_a0  1317       0.056430  0.004370  0.051570  0.000489
+         nvm_at_ft_rd_cdex_nom_min  1319       0.027354  0.001277  0.025656  0.000421
+                    power_cycle_ti  1320       0.011453
+    nvm_meas_at_vdd_int_nom_max_a0  1321       0.056345  0.004347  0.051498  0.000500
+         nvm_at_ft_rd_cdex_nom_max  1323       0.027608  0.001297  0.025866  0.000445
+                    power_cycle_ti  1324       0.011568
+nvm_at_ft_vlprd_reduced_cdex_min_min  1325       0.018331  0.004155  0.013754  0.000422
+                    power_cycle_ti  1326       0.011534
+nvm_at_ft_vlprd_reduced_cdex_max_max  1327       0.017254  0.003214  0.013616  0.000424
+                    power_cycle_ti  1328       0.011476
+      nvm_at_ft_vlprd_cdex_min_min  1329       0.344384  0.004145  0.339783  0.000456
+                    power_cycle_ti  1330       0.011620
+      nvm_at_ft_vlprd_cdex_max_max  1331       0.343229  0.003169  0.339613  0.000448
+                    power_cycle_ti  1332       0.011552
+      nvm_at_ft_pgmt_ickbd_max_nom  1333       0.363962  0.003140  0.360372  0.000450
+      nvm_at_ft_lpb_ickbd0_max_nom  1334       0.000013
+nvm_at_ft_mrd0_between_pulses_ickbd0_max_nom_grp (1/2)  1335       0.012386  0.001174  0.010736  0.000476
+nvm_at_ft_mrd0_between_pulses_ickbd0_max_nom_grp (2/2)  1335       0.010617  0.001032  0.009144  0.000440
+   nvm_at_ft_pgmt_ickbd_p3_max_nom  1336       0.189531  0.001209  0.187888  0.000434
+      nvm_at_ft_lpb_ickbd0_max_nom  1337       0.000011
+nvm_at_ft_mrd0_between_pulses_ickbd0_max_nom_grp (1/2)  1338       0.010659  0.001114  0.009101  0.000445
+nvm_at_ft_mrd0_between_pulses_ickbd0_max_nom_grp (2/2)  1338       0.009027  0.000959  0.007635  0.000433
+nvm_at_ft_pgmt_ickbd_p3_max_nom (2/2)  1339       0.000058
+              nvm_vb_pulse_counter  1340       0.004036
+                              goto  1341       0.000010
+                              goto  1342       0.000009
+                               nop  1354       0.000007
+    nvm_at_ft_mrd0_all0_max_nom_b0  1355       0.042570  0.003130  0.038959  0.000481
+    nvm_at_ft_mrd0_all0_max_nom_b1  1356       0.009019  0.001022  0.007545  0.000452
+  nvm_at_ft_mrd0bc_all0_max_nom_b0  1357       0.000036
+  nvm_at_ft_mrd0bc_all0_max_nom_b1  1358       0.000031
+   nvm_at_ft_mrd0r_all0_max_nom_b0  1359       0.000030
+   nvm_at_ft_mrd0r_all0_max_nom_b1  1360       0.000029
+    nvm_at_ft_mrd0_all0_min_nom_b0  1367       0.013603  0.004205  0.008955  0.000444
+    nvm_at_ft_mrd0_all0_min_nom_b1  1368       0.009201  0.000983  0.007764  0.000454
+  nvm_at_ft_mrd0bc_all0_min_nom_b0  1369       0.000037
+  nvm_at_ft_mrd0bc_all0_min_nom_b1  1370       0.000031
+   nvm_at_ft_mrd0r_all0_min_nom_b0  1371       0.000028
+   nvm_at_ft_mrd0r_all0_min_nom_b1  1372       0.000030
+                              goto  1379       0.000006
+                              goto  1380       0.000007
+                               nop  1390       0.000007
+             nvm_at_ft_ers_sge_mas  1391       0.157294  0.003187  0.153666  0.000441
+             nvm_at_ft_leb_all1_v1  1392       0.000011
+     nvm_at_ft_mrd1_all1_grp (1/2)  1393       0.011678  0.001057  0.010148  0.000473
+     nvm_at_ft_mrd1_all1_grp (2/2)  1393       0.010312  0.000957  0.008907  0.000448
+       nvm_at_ft_ers_sge_mas (2/2)  1394       0.000038
+       nvm_at_ft_leb_all1_v1 (2/2)  1395       0.000008
+     nvm_at_ft_mrd1_all1_grp (2/2)  1396       0.000033
+       nvm_at_ft_ers_sge_mas (2/2)  1397       0.000041
+       nvm_at_ft_leb_all1_v1 (2/2)  1398       0.000008
+     nvm_at_ft_mrd1_all1_grp (2/2)  1399       0.000031
+       nvm_at_ers_overbump_ers_mas  1400       0.154836  0.001071  0.153334  0.000431
+              nvm_vb_pulse_counter  1401       0.003638
+                              goto  1402       0.000011
+                              goto  1403       0.000009
+                               nop  1413       0.000008
+            nvm_at_ft_mrd1_all1_b0  1414       0.011849  0.001172  0.010188  0.000489
+            nvm_at_ft_mrd1_all1_b1  1415       0.010308  0.000971  0.008873  0.000463
+             nvm_at_ft_leb_all1_b0  1416       0.170136  0.000979  0.168718  0.000439
+            nvm_at_ft_lebr_all1_b0  1417       0.000067
+             nvm_at_ft_leb_all1_b1  1418       0.170284  0.001095  0.168750  0.000439
+            nvm_at_ft_lebr_all1_b1  1419       0.000063
+          nvm_at_ft_mrd1bc_all1_b0  1420       0.000033
+          nvm_at_ft_mrd1bc_all1_b1  1421       0.000041
+           nvm_at_ft_mrd1r_all1_b0  1422       0.000033
+           nvm_at_ft_mrd1r_all1_b1  1423       0.000030
+nvm_meas_bitline_leakage_sample_yzs_none_b0_bl0  1424       0.056242  0.001347  0.054403  0.000492
+nvm_meas_bitline_leakage_sample_yzs_normal_b0_bl0  1426       0.051480  0.001323  0.049672  0.000484
+nvm_meas_bitline_leakage_sample_yzs_normal_b0_bl35  1428       0.050704  0.001295  0.048922  0.000487
+nvm_meas_bitline_leakage_sample_yzs_normal_b0_bl54  1430       0.051145  0.001325  0.049321  0.000498
+nvm_meas_bitline_leakage_sample_yzs_normal_b0_bl71  1432       0.051145  0.001318  0.049339  0.000487
+nvm_meas_bitline_leakage_sample_yzs_none_b1_bl0  1434       0.051378  0.001306  0.049584  0.000488
+nvm_meas_bitline_leakage_sample_yzs_normal_b1_bl0  1436       0.050727  0.001312  0.048931  0.000484
+nvm_meas_bitline_leakage_sample_yzs_normal_b1_bl35  1438       0.050870  0.001323  0.049054  0.000493
+nvm_meas_bitline_leakage_sample_yzs_normal_b1_bl54  1440       0.051606  0.001330  0.049787  0.000489
+nvm_meas_bitline_leakage_sample_yzs_normal_b1_bl71  1442       0.050713  0.001312  0.048917  0.000484
+                          logprint  1444       0.000025
+                nvm_at_ft_str_sruc  1445       0.379608  0.001253  0.377904  0.000451
+nvm_at_ft_mrd1_all1_leb_plus_offset_b0  1446       0.014110  0.001042  0.012579  0.000489
+nvm_at_ft_mrd1_all1_leb_plus_offset_b1  1447       0.013227  0.001206  0.011487  0.000534
+nvm_at_ft_mrd1bc_all1_leb_plus_offset_b0  1448       0.000046
+nvm_at_ft_mrd1bc_all1_leb_plus_offset_b1  1449       0.000036
+nvm_at_ft_mrd1r_all1_leb_plus_offset_b0  1450       0.000034
+nvm_at_ft_mrd1r_all1_leb_plus_offset_b1  1451       0.000031
+                nvm_at_ft_str_uruc  1452       0.360809  0.001149  0.359187  0.000473
+nvm_at_ft_mrd1_all1_leb_plus_offset_b0  1454       0.013866  0.001073  0.012337  0.000455
+nvm_at_ft_mrd1_all1_leb_plus_offset_b1  1455       0.012624  0.000997  0.011172  0.000454
+nvm_at_ft_mrd1bc_all1_leb_plus_offset_b0  1456       0.000048
+nvm_at_ft_mrd1bc_all1_leb_plus_offset_b1  1457       0.000035
+nvm_at_ft_mrd1r_all1_leb_plus_offset_b0  1458       0.000034
+nvm_at_ft_mrd1r_all1_leb_plus_offset_b1  1459       0.000033
+             nvm_at_ft_ers_sge_mas  1477       0.157152  0.001128  0.155572  0.000452
+             nvm_at_ft_leb_all1_v1  1478       0.000011
+     nvm_at_ft_mrd1_all1_grp (1/2)  1479       0.011761  0.001113  0.010193  0.000455
+     nvm_at_ft_mrd1_all1_grp (2/2)  1479       0.010506  0.001030  0.009018  0.000457
+       nvm_at_ft_ers_sge_mas (2/2)  1480       0.000045
+       nvm_at_ft_leb_all1_v1 (2/2)  1481       0.000009
+     nvm_at_ft_mrd1_all1_grp (2/2)  1482       0.000037
+       nvm_at_ft_ers_sge_mas (2/2)  1483       0.000046
+       nvm_at_ft_leb_all1_v1 (2/2)  1484       0.000009
+     nvm_at_ft_mrd1_all1_grp (2/2)  1485       0.000034
+       nvm_at_ers_overbump_ers_mas  1486       0.156166  0.001183  0.154547  0.000436
+              nvm_vb_pulse_counter  1487       0.003616
+                    power_cycle_ti  1488       0.011874
+    nvm_meas_at_vdd_int_nom_min_a0  1489       0.057134  0.004387  0.052250  0.000497
+                    power_cycle_ti  1491       0.011908
+    nvm_at_ft_mrd1_all1_nom_min_b0  1492       0.019462  0.004219  0.014754  0.000490
+    nvm_at_ft_mrd1_all1_nom_min_b1  1493       0.014929  0.001059  0.013390  0.000481
+ nvm_at_ft_leb_bin_all1_nom_min_b0  1494       0.069384  0.001068  0.067866  0.000450
+nvm_at_ft_lebr_bin_all1_nom_min_b0  1495       0.000067
+ nvm_at_ft_leb_bin_all1_nom_min_b1  1496       0.069828  0.001152  0.068199  0.000478
+nvm_at_ft_lebr_bin_all1_nom_min_b1  1497       0.000068
+                    power_cycle_ti  1498       0.011930
+            nvm_at_ft_mrd1_all1_b0  1506       0.014990  0.004210  0.010286  0.000495
+            nvm_at_ft_mrd1_all1_b1  1507       0.010451  0.001046  0.008936  0.000469
+             nvm_at_ft_leb_all1_b0  1508       0.170469  0.001055  0.168971  0.000443
+            nvm_at_ft_lebr_all1_b0  1509       0.000067
+             nvm_at_ft_leb_all1_b1  1510       0.170362  0.001114  0.168796  0.000452
+            nvm_at_ft_lebr_all1_b1  1511       0.000066
+          nvm_at_ft_mrd1bc_all1_b0  1512       0.000034
+          nvm_at_ft_mrd1bc_all1_b1  1513       0.000030
+           nvm_at_ft_mrd1r_all1_b0  1514       0.000030
+           nvm_at_ft_mrd1r_all1_b1  1515       0.000029
+                          logprint  1516       0.000025
+                              call  1517       0.000019
+                          defaults  0005       0.000016
+                     set-error-bin  0006       0.000017
+                          logprint  0007       0.000020
+                          logprint  0024       0.000019
+                    ModuleTestTime  0035       0.002753  0.001265  0.001112  0.000375                          
+                      Start_Module  0025       0.002161  0.001042  0.000744  0.000375
+                              goto  0026       0.000008
+                    power_cycle_ti  0027       0.011751
+            pfbiu_pflash_pgmsec_ti  0028       0.344933  0.000970  0.343516  0.000447
+            pfbiu_dflash_pgmsec_ti  0029       0.185618  0.001018  0.184162  0.000438
+                               nop  0030       0.000009
+                    ModuleTestTime  0031       0.002322  0.000988  0.000962  0.000372
+                            return  0032       0.000026
+                              goto  1518       0.000007
+                               nop  1520       0.000007
+             nvm_at_ft_ers_sge_mas  1521       0.161578  0.004153  0.156993  0.000432
+     nvm_at_ft_mrd1_all1_grp (1/2)  1522       0.011719  0.001062  0.010137  0.000520
+     nvm_at_ft_mrd1_all1_grp (2/2)  1522       0.010362  0.000959  0.008953  0.000450
+       nvm_at_ft_ers_sge_mas (2/2)  1523       0.000038
+     nvm_at_ft_mrd1_all1_grp (2/2)  1524       0.000030
+       nvm_at_ft_ers_sge_mas (2/2)  1525       0.000050
+     nvm_at_ft_mrd1_all1_grp (2/2)  1526       0.000032
+       nvm_at_ft_ers_sge_mas (2/2)  1527       0.000038
+     nvm_at_ft_mrd1_all1_grp (2/2)  1528       0.000032
+       nvm_at_ers_overbump_ers_mas  1529       0.156866  0.001076  0.155350  0.000440
+              nvm_vb_pulse_counter  1530       0.003765
+                               nop  1531       0.000009
+                    power_cycle_ti  1532       0.011849
+      nvm_at_ft_pgmt_ickbd_max_max  1533       0.368175  0.003073  0.364659  0.000443
+                    power_cycle_ti  1534       0.011908
+      nvm_at_ft_lpb_ickbd0_nom_max  1535       0.000010
+                    power_cycle_ti  1536       0.000008
+nvm_at_ft_mrd0_between_pulses_ickbd0_nom_max_grp (1/2)  1537       0.019723  0.004170  0.015063  0.000490
+nvm_at_ft_mrd0_between_pulses_ickbd0_nom_max_grp (2/2)  1537       0.015003  0.000978  0.013582  0.000443
+                    power_cycle_ti  1538       0.011331
+                              goto  1539       0.000008
+                              goto  1540       0.000007
+                               nop  1550       0.000007
+                    power_cycle_ti  1551       0.043014
+   nvm_at_ft_pgmt_ickbd_p3_max_max  1552       0.175363  0.003192  0.171719  0.000453
+                    power_cycle_ti  1553       0.011785
+      nvm_at_ft_lpb_ickbd0_nom_max  1554       0.000009
+                    power_cycle_ti  1555       0.000008
+nvm_at_ft_mrd0_between_pulses_ickbd0_nom_max_grp (1/2)  1556       0.018980  0.004196  0.014330  0.000455
+nvm_at_ft_mrd0_between_pulses_ickbd0_nom_max_grp (2/2)  1556       0.013241  0.000944  0.011869  0.000429
+                    power_cycle_ti  1557       0.011294
+   nvm_at_ft_pgmt_ickbd_p3_max_max  1558       0.175538  0.003469  0.171603  0.000466
+              nvm_vb_pulse_counter  1559       0.003942
+                    power_cycle_ti  1560       0.058124
+  nvm_at_ft_mrd0_ickbd0_nom_max_b0  1561       0.018134  0.004210  0.013436  0.000489
+  nvm_at_ft_mrd0_ickbd0_nom_max_b1  1562       0.013349  0.000992  0.011899  0.000458
+nvm_at_ft_mrd0bc_ickbd0_nom_max_b0  1563       0.000039
+nvm_at_ft_mrd0bc_ickbd0_nom_max_b1  1564       0.000031
+ nvm_at_ft_mrd0r_ickbd0_nom_max_b0  1565       0.000030
+ nvm_at_ft_mrd0r_ickbd0_nom_max_b1  1566       0.000030
+                    power_cycle_ti  1567       0.011432
+nvm_at_ft_mrd1_ickbd1_leb_plus_offset_min_nom_b0  1568       0.017303  0.004148  0.012697  0.000459
+nvm_at_ft_mrd1_ickbd1_leb_plus_offset_min_nom_b1  1569       0.012992  0.001048  0.011488  0.000456
+nvm_at_ft_mrd1bc_ickbd1_leb_plus_offset_min_nom_b0  1570       0.000049
+nvm_at_ft_mrd1bc_ickbd1_leb_plus_offset_min_nom_b1  1571       0.000037
+nvm_at_ft_mrd1r_ickbd1_leb_plus_offset_min_nom_b0  1572       0.000034
+nvm_at_ft_mrd1r_ickbd1_leb_plus_offset_min_nom_b1  1573       0.000033
+nvm_at_ft_mrd1_ickbd1_leb_plus_offset_max_nom_b0  1574       0.016127  0.003246  0.012426  0.000455
+nvm_at_ft_mrd1_ickbd1_leb_plus_offset_max_nom_b1  1575       0.012859  0.001040  0.011311  0.000508
+nvm_at_ft_mrd1bc_ickbd1_leb_plus_offset_max_nom_b0  1576       0.000046
+nvm_at_ft_mrd1bc_ickbd1_leb_plus_offset_max_nom_b1  1577       0.000035
+nvm_at_ft_mrd1r_ickbd1_leb_plus_offset_max_nom_b0  1578       0.000033
+nvm_at_ft_mrd1r_ickbd1_leb_plus_offset_max_nom_b1  1579       0.000032
+             nvm_at_ft_rd_ickbd_b0  1580       0.014527  0.004312  0.009781  0.000434
+             nvm_at_ft_rd_ickbd_b1  1581       0.009815  0.001059  0.008349  0.000407
+          nvm_at_ft_mrd0_ickbd0_b0  1588       0.010160  0.001016  0.008663  0.000480
+          nvm_at_ft_mrd0_ickbd0_b1  1589       0.008987  0.001010  0.007505  0.000472
+        nvm_at_ft_mrd0bc_ickbd0_b0  1590       0.000048
+        nvm_at_ft_mrd0bc_ickbd0_b1  1591       0.000037
+         nvm_at_ft_mrd0r_ickbd0_b0  1592       0.000033
+         nvm_at_ft_mrd0r_ickbd0_b1  1593       0.000032
+nvm_at_ft_factory_mrd1_ickbd1_min_nom_b0  1594       0.015115  0.004315  0.010318  0.000483
+nvm_at_ft_factory_mrd1_ickbd1_min_nom_b1  1595       0.010723  0.001030  0.009223  0.000470
+nvm_at_ft_factory_mrd1bc_ickbd1_min_nom_b0  1596       0.000047
+nvm_at_ft_factory_mrd1bc_ickbd1_min_nom_b1  1597       0.000039
+nvm_at_ft_factory_mrd1r_ickbd1_min_nom_b0  1598       0.000036
+nvm_at_ft_factory_mrd1r_ickbd1_min_nom_b1  1599       0.000034
+nvm_at_ft_factory_mrd1_ickbd1_max_nom_b0  1600       0.013949  0.003318  0.010151  0.000480
+nvm_at_ft_factory_mrd1_ickbd1_max_nom_b1  1601       0.010494  0.001059  0.008938  0.000496
+nvm_at_ft_factory_mrd1bc_ickbd1_max_nom_b0  1602       0.000048
+nvm_at_ft_factory_mrd1bc_ickbd1_max_nom_b1  1603       0.000037
+nvm_at_ft_factory_mrd1r_ickbd1_max_nom_b0  1604       0.000034
+nvm_at_ft_factory_mrd1r_ickbd1_max_nom_b1  1605       0.000032
+nvm_at_ft_factory_mrd0_ickbd0_min_nom_b0  1606       0.014046  0.004294  0.009259  0.000493
+nvm_at_ft_factory_mrd0_ickbd0_min_nom_b1  1607       0.009386  0.001034  0.007884  0.000467
+nvm_at_ft_factory_mrd0bc_ickbd0_min_nom_b0  1608       0.000038
+nvm_at_ft_factory_mrd0bc_ickbd0_min_nom_b1  1609       0.000031
+nvm_at_ft_factory_mrd0r_ickbd0_min_nom_b0  1610       0.000030
+nvm_at_ft_factory_mrd0r_ickbd0_min_nom_b1  1611       0.000030
+nvm_at_ft_factory_mrd0_ickbd0_max_nom_b0  1612       0.012313  0.003170  0.008675  0.000467
+nvm_at_ft_factory_mrd0_ickbd0_max_nom_b1  1613       0.008977  0.000968  0.007569  0.000441
+nvm_at_ft_factory_mrd0bc_ickbd0_max_nom_b0  1614       0.000037
+nvm_at_ft_factory_mrd0bc_ickbd0_max_nom_b1  1615       0.000031
+nvm_at_ft_factory_mrd0r_ickbd0_max_nom_b0  1616       0.000030
+nvm_at_ft_factory_mrd0r_ickbd0_max_nom_b1  1617       0.000030
+                              goto  1618       0.000006
+                              goto  1619       0.000007
+                               nop  1629       0.000007
+                    power_cycle_ti  1630       0.011518
+       nvm_at_ft_pgmt_ckbd_min_min  1631       0.369642  0.004072  0.365129  0.000440
+                    power_cycle_ti  1632       0.011817
+       nvm_at_ft_lpb_ckbd0_nom_min  1633       0.000010
+                    power_cycle_ti  1634       0.000008
+nvm_at_ft_mrd0_between_pulses_ckbd0_nom_min_grp (1/2)  1635       0.019659  0.004152  0.015008  0.000499
+nvm_at_ft_mrd0_between_pulses_ckbd0_nom_min_grp (2/2)  1635       0.015035  0.000998  0.013581  0.000455
+                    power_cycle_ti  1636       0.011480
+    nvm_at_ft_pgmt_ckbd_p3_min_min  1637       0.190396  0.004383  0.185564  0.000449
+                    power_cycle_ti  1638       0.011938
+       nvm_at_ft_lpb_ckbd0_nom_min  1639       0.000009
+                    power_cycle_ti  1640       0.000008
+nvm_at_ft_mrd0_between_pulses_ckbd0_nom_min_grp (1/2)  1641       0.018042  0.004145  0.013462  0.000435
+nvm_at_ft_mrd0_between_pulses_ckbd0_nom_min_grp (2/2)  1641       0.013387  0.000907  0.012047  0.000433
+                    power_cycle_ti  1642       0.011435
+    nvm_at_ft_pgmt_ckbd_p3_min_min  1643       0.000068
+              nvm_vb_pulse_counter  1644       0.003449
+                    power_cycle_ti  1660       0.055023
+    nvm_at_ft_mrd0_all0_nom_min_b0  1661       0.018099  0.004205  0.013412  0.000482
+    nvm_at_ft_mrd0_all0_nom_min_b1  1662       0.013347  0.000949  0.011937  0.000461
+  nvm_at_ft_mrd0bc_all0_nom_min_b0  1663       0.000037
+  nvm_at_ft_mrd0bc_all0_nom_min_b1  1664       0.000031
+   nvm_at_ft_mrd0r_all0_nom_min_b0  1665       0.000030
+   nvm_at_ft_mrd0r_all0_nom_min_b1  1666       0.000030
+                    power_cycle_ti  1667       0.011416
+nvm_at_ft_mrd0_factory_plus2_all0_nom_max_b0  1668       0.017982  0.004063  0.013454  0.000464
+nvm_at_ft_mrd0_factory_plus2_all0_nom_max_b1  1669       0.013605  0.001016  0.012120  0.000470
+nvm_at_ft_mrd0bc_factory_plus2_all0_nom_max_b0  1670       0.000036
+nvm_at_ft_mrd0bc_factory_plus2_all0_nom_max_b1  1671       0.000031
+nvm_at_ft_mrd0r_factory_plus2_all0_nom_max_b0  1672       0.000030
+nvm_at_ft_mrd0r_factory_plus2_all0_nom_max_b1  1673       0.000030
+                    power_cycle_ti  1674       0.011401
+            nvm_at_ft_mrd0_all0_b0  1681       0.013472  0.004009  0.008970  0.000492
+            nvm_at_ft_mrd0_all0_b1  1682       0.008895  0.000944  0.007452  0.000499
+             nvm_at_ft_lpb_all0_b0  1683       0.058547  0.000939  0.057174  0.000434
+            nvm_at_ft_lpbr_all0_b0  1684       0.000066
+             nvm_at_ft_lpb_all0_b1  1685       0.059085  0.001068  0.057570  0.000446
+            nvm_at_ft_lpbr_all0_b1  1686       0.000066
+          nvm_at_pass_rd_prb3_cold  1687       0.010910  0.001029  0.009386  0.000495
+         nvm_at_pass_pgm_prb3_cold  1688       0.043608  0.001117  0.042039  0.000451
+          nvm_at_pass_rd_prb3_cold  1689       0.009426  0.001080  0.007928  0.000419
+                    nvm_end_module  1704       0.006718  0.003974  0.002366  0.000378
+                    power_cycle_ti  1705       0.047948
+                               nop  1706       0.000009
+                          logprint  1707       0.000024
+                    ModuleTestTime  0035       0.002753  0.001265  0.001112  0.000375
+                          Start_Module  1708       0.002086  0.001024  0.000704  0.000357
+                              goto  1709       0.000007
+                        jvt_pos_ti  1710       0.033740  0.004204  0.028959  0.000577
+                        jvt_neg_ti  1712       0.030634  0.001581  0.028499  0.000554
+                   jvt_pos_ptb6_ti  1714       0.027637  0.001822  0.025146  0.000668
+                   jvt_neg_ptb6_ti  1716       0.027680  0.001818  0.025162  0.000700
+                        jvt_vdd_ti  1718       0.170677  0.021998  0.138602  0.010077
+                               nop  1721       0.000012
+                    ModuleTestTime  1722       0.004398  0.002951  0.001046  0.000402
+                   ProgramTestTime  1723       0.002570  0.001101  0.001018  0.000451
+                        set-device  1724       0.000008
+                        set-device  1725       2.942859
+                     PostJob Reset  9998       0.023801
+
+                        Entire Job  9999       63.283407
+
+
